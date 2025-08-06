@@ -1,0 +1,48 @@
+/* style.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ecfccb;
+}
+
+.header-bg {
+    background-image: url('https://ih1.redbubble.net/image.5849114174.4790/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.recipe-card {
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+}
+
+.rarity-badge-divine {
+    background-image: linear-gradient(to right, #fde047, #facc15, #f59e0b);
+    color: #4b5563; 
+}
+
+.rarity-badge-prismatic {
+    background-image: linear-gradient(to right, #ef4444, #f97316, #facc15, #22c55e, #3b82f6, #8b5cf6, #ec4899);
+}
+
+.ingredient-item {
+    background-color: #ecfccb;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.ingredient-item:hover {
+    background-color: #d9f991;
+}
