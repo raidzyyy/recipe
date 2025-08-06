@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             food: 'salad',
             rarity: 'prismatic',
             ingredients: ['bone blossom 4x', 'tomato'],
-            imageUrl: 'saladIcon.png'
+            imageUrl: 'SaladIcon.png'
         },
         {
             food: 'ice cream',
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             food: 'hotdog',
             rarity: 'prismatic',
             ingredients: ['bone blossom 4x', 'corn'],
-            imageUrl: 'hotdogIcon.png'
+            imageUrl: 'HotDogIcon.png'
         },
         {
             food: 'cake',
@@ -164,4 +164,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     recipes.forEach(recipe => createRecipeCard(recipe));
+
 });
